@@ -11,7 +11,7 @@ int g = 70;
 int b = 80;
 
 void setup() {
-    FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
+    FastLED.addLeds<WS2812, LED_PIN, RGB>(leds, NUM_LEDS);
 }
 
 void loop() {
